@@ -32,3 +32,12 @@ body {
   border-bottom: 3px solid #ae9cff;
   font-size: 16ox;
 }
+.search-box button {
+  padding: 15px 0;
+  width: 25%;
+  background-color: #ae9cff;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
