@@ -28,7 +28,8 @@ btn.addEventListener("click", () => {
       ${data[0].meanings[0].definitions[0].example || ""}
       </p>
         `;
-      sound.setAttribute("src", `https:${(data[0], phonetic[0].audio)}`);
+      sound.setAttribute("src", `${data[0].phonetics[1].audio || data[0].phonetics[3].audio}`);
+      console.log(sound);
     });
 });
 
